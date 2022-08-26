@@ -132,7 +132,6 @@ function savegame() {
         cursors2: cursors2
     };
     localStorage.setItem("gameSave", JSON.stringify(gameSave));
-    window.alert("game Saved");
 }
 
 function loadgame() {
