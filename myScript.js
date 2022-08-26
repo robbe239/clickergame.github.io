@@ -135,7 +135,7 @@ function savegame() {
 }
 
 function loadgame() {
-    var gamesave = JSON.parse(localStorage.getItem(gameSave));
+    var gameSave = JSON.parse(localStorage.getItem(gameSave));
     if (typeof savegame.score !== "undefined") score = savegame.score;
     if (typeof savegame.clickingpower !== "undefined") clickingpower = savegame.clickingpower;
     if (typeof savegame.cursorcost !== "undefined") cursorcost = savegame.cursorcost;
